@@ -25,11 +25,20 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Deploy to Github Pages
-        uses: crazy-max/ghaction-github-pages@v2
-        with:
-          target_branch: dist
-          build_dir: dist
-          keep_history: true
+      - name: vuepress-deploy
+        uses: jenkey2011/vuepress-deploy@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TARGET_REPO: leonidlezner/leonidlezner.github.io
+          TARGET_BRANCH: dist
+          BUILD_SCRIPT: yarn && yarn build
+          BUILD_DIR: dist
+
+#      - name: Deploy to Github Pages
+#        uses: crazy-max/ghaction-github-pages@v2
+#        with:
+#          target_branch: dist
+#          build_dir: dist
+#          keep_history: true
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
