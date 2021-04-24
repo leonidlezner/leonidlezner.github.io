@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Leonid\'s Digital Garden',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -16,9 +16,10 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'theme-color', content: '#faca30' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['link', { rel: 'icon', href: '/logo.png' }]
   ],
 
   dest: 'dist/',
@@ -29,37 +30,35 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
-    editLinks: false,
+    repo: 'https://github.com/leonidlezner/leonidlezner.github.io',
+    editLinks: true,
     docsDir: '',
-    editLinkText: '',
-    lastUpdated: false,
+    editLinkText: 'Bearbeiten',
+    lastUpdated: true,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Twitter',
+        link: 'https://twitter.com/leonidlezner',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Blog',
+        link: 'https://leonidlezner.de',
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
+        text: 'Impressum',
+        link: 'https://leonidlezner.de/impressum',
+      },
     ],
-    sidebar: {
-      '/guide/': [
+    sidebar: [
         {
-          title: 'Guide',
+          title: 'Themen',
           collapsable: false,
           children: [
-            '',
-            'using-vue',
+            '/ultraschall/',
           ]
         }
       ],
-    }
+    logo: '/logo.png',
   },
 
   /**
@@ -68,5 +67,12 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-  ]
+  ],
+  /*
+  locales: {
+    '/de/': {
+      lange: 'de-DE',
+      title: 'Leonids Digitaler Garten'
+    }
+  },*/
 }

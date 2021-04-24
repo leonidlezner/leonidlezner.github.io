@@ -1,15 +1,3 @@
----
-home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: 
-actionText: Quick Start →
-actionLink: /guide/
-features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by  with ❤️
----
+# Willkommen!
+
+Hi 👋🏻 Schön, dass Du hier gelandet bist. Mein Name ist Leonid und ich mache ganz viele verschiedene Dinge. Und begeistere mich ständig für Neues. Das ist eine Sammlung von Dokumenten und interessanten Informationen, die ich im Laufe der Zeit sammle und hier mit anderen Menschen teile.
