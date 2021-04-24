@@ -1,8 +1,16 @@
-# Ultraschall Basics
+# Ultraschall Grundlagen und Bearbeitung
 
-Auch wenn es um Ultraschall geht, fällt hier oft der Name "Reaper". Denn Reaper ist eine Software, die durch das Projekt "Ultraschall" erweitert wird. Einfachheitshalber spreche ich hier von Ultraschall, meine jedoch immer die Kombination "Reaper/Ultraschall“.
+::: tip
+Auf dieser Seite werden viele animierte Bilder mit Sequenzen aus Ultraschall geladen. Dies kann je nach Internetverbindung etwas dauern.
+:::
+
+## Inhalt
+
+[[toc]]
 
 ## Reaper und Ultraschall installieren
+
+Auch wenn es um Ultraschall geht, fällt hier oft der Name "Reaper". Denn Reaper ist eine Software, die durch das Projekt "Ultraschall" erweitert wird. Einfachheitshalber spreche ich hier von Ultraschall, meine jedoch immer die Kombination "Reaper/Ultraschall“.
 
 Um die Software zu installieren gehen wir auf die Webadresse [https://ultraschall.fm/install](https://ultraschall.fm/install/). Dort sind alle Informationen vorhanden, die wir für die Installation benötigen. Grundsätzlich werden Windows und macOS unterstützt.
 
@@ -145,7 +153,9 @@ Um den Pegel der gesamten Aufnahmen auf einen Standardwert zu heben, gibt es noc
 
 ![](./img/basics/fx-master.gif)
 
-## Kapitelmarken setzen
+## Episode exportieren
+
+### Kapitelmarken setzen
 
 Neue Kapitelmarken an der aktuellen Cursorposition können mit dem **Button 3** (s. oben) oder Taste "M" gesetzt werden. Sie werden erst ohne Namen eingegeben und erscheinen in der Liste der Kapitelmarken. Dort kann man sie umbenennen.
 
@@ -155,14 +165,14 @@ Kapitelmarken kann man ganz einfach mit der Maus verschieben, sollte die Positio
 
 ![](./img/basics/move-chapter.gif)
 
-## Kapitelmarken exportieren
+### Kapitelmarken exportieren
 
 ![](./img/basics/export-chapters.gif)
 
-## Projekt als MP3 exportieren
+### Projekt als MP3 exportieren
 
 ![](./img/basics/export-mp3.gif)
 
-# Weitere Informationen und Downloads
+## Weitere Informationen und Downloads
 
 * Download: [Schnellübersicht der Oberfläche](https://github.com/leonidlezner/ultraschall-tutorial/raw/main/docs/downloads/Quick-Info-Ultraschall.pdf)
