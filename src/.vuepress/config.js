@@ -35,6 +35,7 @@ module.exports = {
     docsDir: '',
     editLinkText: 'Bearbeiten',
     lastUpdated: true,
+    displayAllHeaders: true,
     nav: [
       {
         text: 'Twitter',
@@ -54,7 +55,10 @@ module.exports = {
           title: 'Themen',
           collapsable: false,
           children: [
-            '/ultraschall/',
+            '/de/coaching/',
+            '/de/podcasting/',
+            '/de/socialmedia/',
+            '/de/business/',
           ]
         }
       ],
