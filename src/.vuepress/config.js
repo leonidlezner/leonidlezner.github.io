@@ -30,10 +30,12 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: 'https://github.com/leonidlezner/leonidlezner.github.io',
+    repo: 'leonidlezner/leonidlezner.github.io',
     editLinks: true,
     docsDir: '',
     editLinkText: 'Bearbeiten',
+    docsDir: 'src',
+    docsBranch: 'main',
     lastUpdated: true,
     displayAllHeaders: true,
     nav: [
