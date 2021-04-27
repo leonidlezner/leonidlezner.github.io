@@ -32,7 +32,6 @@ module.exports = {
   themeConfig: {
     repo: 'leonidlezner/leonidlezner.github.io',
     editLinks: true,
-    docsDir: '',
     editLinkText: 'Bearbeiten',
     docsDir: 'src',
     docsBranch: 'main',
@@ -61,6 +60,7 @@ module.exports = {
             '/de/podcasting/',
             '/de/socialmedia/',
             '/de/business/',
+            '/de/tools/',
           ]
         }
       ],
