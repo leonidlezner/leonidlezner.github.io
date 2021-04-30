@@ -60,6 +60,7 @@ module.exports = {
             '/de/podcasting/',
             '/de/socialmedia/',
             '/de/business/',
+            '/de/wissen/',            
             '/de/tools/',
           ]
         }
