@@ -7,4 +7,5 @@
 
 ## Yammer
 
+* [Microsoft Yammer communities overview](https://www.youtube.com/watch?v=HrSG7Pw5_BE)
 * [Microsoft Yammer conversations and discovery](https://www.youtube.com/watch?v=eRT4dOllz24)
