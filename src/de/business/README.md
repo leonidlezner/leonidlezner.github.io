@@ -10,3 +10,5 @@ Blue-Ocean-Strategie, engl. Blue Ocean Strategy, ist eine Methode zur Entwicklun
 
 * [12 Things about Product-Market Fit](https://a16z.com/2017/02/18/12-things-about-product-market-fit/)
 * [Part 4: The only thing that matters](https://pmarchive.com/guide_to_startups_part4.html)
+* Video: [Segment’s Bumpy Road to Product-Market Fit with Co-founder & CEO Peter Reinhardt](https://www.youtube.com/watch?v=oP3YGG6ECbs)
+* Video: [David Rusenko - How To Find Product Market Fit](https://www.youtube.com/watch?v=0LNQxT9LvM0)
