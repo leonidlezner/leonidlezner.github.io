@@ -9,6 +9,7 @@
 ## Tools
 
 * [Zotero](https://www.zotero.org/)
+* [Obsidian](https://obsidian.md)
 
 ## Bücher
 
